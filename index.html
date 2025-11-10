@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora</title>
+<link rel="stylesheet" href="calculadora.css">
+<script src="calculadora.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+<div class="calculadora">
+<div class="tela" id="tela">0</div>
+<div class="botoes">
+<button class="limpar" onclick="limpar()">C</button>
+<button class="operador" onclick="inserir('/')">÷</button>
+<button class="operador" onclick="inserir('*')">×</button>
+<button class="operador" onclick="apagar()">⌫</button>
+
+<button class="numero" onclick="inserir('7')">7</button>
+<button class="numero" onclick="inserir('8')">8</button>
+<button class="numero" onclick="inserir('9')">9</button>
+<button class="operador" onclick="inserir('-')">−</button>
+
+<button class="numero" onclick="inserir('4')">4</button>
+<button class="numero" onclick="inserir('5')">5</button>
+<button class="numero" onclick="inserir('6')">6</button>
+<button class="operador" onclick="inserir('+')">+</button>
+
+<button class="numero" onclick="inserir('1')">1</button>
+<button class="numero" onclick="inserir('2')">2</button>
+<button class="numero" onclick="inserir('3')">3</button>
+<button class="igual" onclick="calcular()">=</button>
+
+<button class="numero" onclick="inserir('0')">0</button>
+<button class="numero" onclick="inserir('.')">.</button>
+</div>
+</div>
+
+</body>
+</html>
